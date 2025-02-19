@@ -10,14 +10,22 @@ If the user decide their model is good for using, they can install as a .pickle 
 **Note: For this project, python3.10.2 version was used.**
 
 ## How to clone and run this repo?
+### To Clone
 ```bash
 git clone ML_App
 cd ML_App
 ```
-
+### To prepare before run the project.
 ```python
 python3 -m venv venv # FOR python3.10.2 version
 source venv/bin/activate
 pip install requirement.txt # to install the required libraries.
-python3 main.py # To run the project
+```
+
+### How to run?
+#### Why main.py?
+**This script starts a Flask API (model_api.py), runs the Streamlit app (app2.py), and terminates the Flask process once the Streamlit app closes.**
+
+```python
+python3 main.py
 ```
