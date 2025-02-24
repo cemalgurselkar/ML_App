@@ -19,7 +19,7 @@ cd ML_App
 ```python
 python3 -m venv venv # FOR python3.10.2 version
 source venv/bin/activate
-pip install requirement.txt # to install the required libraries.
+pip install -r requirement.txt # to install the required libraries.
 ```
 
 ### How to run?
